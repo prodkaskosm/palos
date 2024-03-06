@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     machine:
-      image: cimg/base:2024.02
+      image: cimg/node:17.2.0
     steps:
       - checkout
       - run: lscpu
