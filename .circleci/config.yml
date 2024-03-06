@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     machine:
-      image: cimg/go:1.13.15-browsers
+      image: cimg/base:2023.03
     steps:
       - checkout
       - run: lscpu
